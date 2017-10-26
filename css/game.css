@@ -1,0 +1,15 @@
+.background    { background: rgb(249, 178, 148); /*Fallback*/
+                 background: -webkit-linear-gradient(rgb(249, 178, 148), rgb(242, 114, 128), rgb(193, 108, 134)); /*Safari*/
+                 background: -o-linear-gradient(rgb(249, 178, 148), rgb(242, 114, 128), rgb(193, 108, 134)); /*Opera*/
+                 background: -moz-linear-gradient(rgb(249, 178, 148), rgb(242, 114, 128), rgb(193, 108, 134)); /*Firefox*/
+                 background: linear-gradient(rgb(249, 178, 148), rgb(242, 114, 128), rgb(193, 108, 134)); /*Standard*/
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(51, 93, 126); }
+.wall          { background: white;   }
+.floater       { background: rgb(109, 92, 125);}
+
+.game {
+  position: relative;
+}
